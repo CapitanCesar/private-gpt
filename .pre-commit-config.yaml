@@ -1,0 +1,8 @@
+- repo: https://github.com/charliermarsh/ruff
+  rev: v0.9.1  # Usa la última versión estable
+  hooks:
+    - id: ruff
+      name: ruff (Python linter)
+      entry: ruff check
+      language: python
+      types: [python]
